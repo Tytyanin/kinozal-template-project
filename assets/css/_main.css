@@ -1,0 +1,38 @@
+.main .panel-search {
+  margin: 40px 0 20px 0;
+}
+
+.new-films .row,
+.top-week .row {
+  margin-right: -7.5px;
+  margin-left: -7.5px;
+}
+
+.new-films .thumbnail,
+.top-week .thumbnail {
+  margin-bottom: 15px;
+}
+
+.new-films-item,
+.top-week-item {
+  padding-right: 7.5px;
+}
+
+.new-films-item__image,
+.top-week-item__image {
+  width: 100%;
+}
+
+.new-films-item .thumbnail,
+.top-week-item .thumbnail {
+  -webkit-transition: background-color 0.25s ease;
+  -o-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
+}
+
+.new-films-item .caption,
+.top-week-item .caption {
+  text-align: center;
+}
+
+/*# sourceMappingURL=_main.css.map */

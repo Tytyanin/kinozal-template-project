@@ -1,0 +1,38 @@
+
+.header-logo {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: $dark-color;
+    background-image: url(../img/header-bg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+
+    &__title {
+        letter-spacing: 0.33em;
+        font-size: 3.5rem;
+        color: $accent-color;
+        font-family: $font-header;
+        display: block;
+
+        @include text-shadow;
+
+        @media (min-width: 576px) {
+            letter-spacing: 0.33em;
+            font-size: 3.5rem;
+        }
+
+        @media (max-width: 576px) {
+            letter-spacing: 0.2em;
+            font-size: 2.5rem;
+        }
+    }
+
+    &__description {
+        display: block;
+        font-size: 1.15rem;
+        letter-spacing: 0.2em;
+        color: $light-color;
+
+        @include text-shadow;
+    }
+}

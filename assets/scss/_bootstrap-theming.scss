@@ -1,0 +1,99 @@
+.navbar {
+    &-inverse {
+        border-color: transparent;
+        background-color: darken($dark-color, 4%);
+
+        .navbar-nav {
+            > .active > a {
+                background-color: $base-dark;
+
+                &:hover,
+                &:focus {
+                    background-color: $base-light;
+                }
+            }
+
+            > li {
+                > a {
+                    transition: background-color 0.5s;
+
+                    @media (min-width: 768px) {
+                        border-radius: 4px;
+                    }
+
+                    @media (max-width: 767px) {
+                        text-align: center;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        background-color: $base-color;
+                    }
+                }
+            }
+        }
+    }
+    
+    &-left {
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
+
+        li {
+            @media (min-width: 768px) {
+                margin: 5px 5px 5px 0;
+            }
+        }
+    }
+
+    &-right {
+        @media (max-width: 767px) {
+            margin-top: 0;
+        }
+
+        li {
+            @media (min-width: 768px) {
+                margin: 5px 0 5px 5px;
+            }
+        }
+    }
+}
+
+.panel {
+    margin-bottom: 30px;
+    border: none;
+    background-color: lighten($gray-color, 8%);
+
+    &-info {
+        > .panel-heading {
+            color: $light-color;
+            border: none;
+            background-color: $accent-color;
+        }
+    }
+
+    &-title {
+        letter-spacing: 0.1em;
+        font-size: 1.2rem;
+    }
+
+    &-body {
+        border: 1px solid $gray-color;
+        border-radius: 0 0 4px 4px;
+    }
+}
+
+.input {
+    &-lg {
+        font-size: 0.875rem;
+    }
+
+    &-group-lg > .form-control {
+        font-size: 0.875rem;
+    }
+}
+
+.w-100 {
+    width: 100%;
+}
+

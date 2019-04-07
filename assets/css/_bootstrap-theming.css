@@ -1,0 +1,51 @@
+.navbar-inverse {
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.navbar-left li {
+  margin: 5px 5px 5px 0;
+}
+
+.navbar-right li {
+  margin: 5px 0 5px 5px;
+}
+
+.panel {
+  margin-bottom: 30px;
+  border: none;
+}
+
+.panel-info > .panel-heading {
+  border: none;
+}
+
+.panel-title {
+  letter-spacing: 0.1em;
+  font-size: 1.2rem;
+}
+
+.panel-body {
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+
+.input-group-lg > .form-control {
+  font-size: 0.875rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.thumbnail {
+  -webkit-transition: background-color 0.25s;
+  -o-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+}
+
+/*# sourceMappingURL=_bootstrap-theming.css.map */
